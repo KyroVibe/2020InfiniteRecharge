@@ -7,16 +7,12 @@
 
 package frc.robot;
 
+import com.fasterxml.jackson.databind.ext.DOMDeserializer.DocumentDeserializer;
+
 import edu.wpi.first.wpilibj.XboxController;
+import edu.wpi.first.wpilibj.GenericHID.Hand;
 
 /**
  * Add your docs here.
  */
-public class OI {
-
-    private static XboxController gamepad1;
-
-    static {
-        gamepad1 = new XboxController(0);
-    }
-}
+public class OI { }
