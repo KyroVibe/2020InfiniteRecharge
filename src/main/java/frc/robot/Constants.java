@@ -8,6 +8,14 @@ public final class Constants {
 
   public static class Ports {
 
+    public static class OI {
+      public static final int
+
+        AXIS_LEFT_Y = 1,
+        AXIS_RIGHT_X = 4;
+
+    }
+
     public static class Drivetrain {
       public static final int
 
@@ -43,10 +51,11 @@ public final class Constants {
       public static final double
 
         WHEEL_DIAMETER = 5,
-
         GEARING_FACTOR = 9 / 70,
+        INPUT_PERCENT_DEADBAND = 0.05,
 
-        INPUT_PERCENT_DEADBAND = 0.05;
+        MAX_VELOCITY = 4.3,
+        MAX_ACCELERATION = 4.572;
 
     }
 
